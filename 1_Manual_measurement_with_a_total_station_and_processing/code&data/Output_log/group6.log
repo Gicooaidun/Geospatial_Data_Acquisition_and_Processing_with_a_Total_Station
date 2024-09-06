@@ -1,0 +1,10 @@
+This log contains the output log of the simplified test procedure (horizontal directions) according to ISO 17123-3.
+
+Input File: group6.GSI
+Number of Measured Sets: 3
+Number of Measured Points: 4
+Arithmetic Checks: The measurements are correct. All arithmetic checks were successful.
+Degrees of Freedom: 6
+Residual Sum of Squares: 4.625000001420252e-08 mgon²
+Measurements Standard Deviation: 8.77971146205866e-05 mgon
+This is an error message.

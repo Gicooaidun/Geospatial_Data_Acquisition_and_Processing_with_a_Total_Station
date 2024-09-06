@@ -1,0 +1,10 @@
+This log contains the output log of the simplified test procedure (horizontal directions) according to ISO 17123-3.
+
+Input File: Lab1_Challenge_GDAq_2023.GSI
+Number of Measured Sets: 4
+Number of Measured Points: 5
+Arithmetic Checks: The measurements are correct. All arithmetic checks were successful.
+Degrees of Freedom: 12
+Residual Sum of Squares: 4.0749999995031666e-08 mgon²
+Measurements Standard Deviation: 5.827377911993786e-05 mgon
+This is an error message.

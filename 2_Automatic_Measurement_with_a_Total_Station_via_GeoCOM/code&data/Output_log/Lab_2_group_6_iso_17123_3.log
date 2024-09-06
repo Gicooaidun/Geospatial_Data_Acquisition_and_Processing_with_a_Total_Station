@@ -1,0 +1,9 @@
+This log contains the output log of the simplified test procedure (horizontal directions) according to ISO 17123-3.
+
+Input File: Lab_2_group_6
+Number of Measured Sets: 5
+Number of Measured Points: 5
+Arithmetic Checks: The measurements are correct. All arithmetic checks were successful.
+Degrees of Freedom: 16
+Residual Sum of Squares: 7.766399816889316e-08 gon²
+Measurements Standard Deviation: 6.967065297207873e-05 gon

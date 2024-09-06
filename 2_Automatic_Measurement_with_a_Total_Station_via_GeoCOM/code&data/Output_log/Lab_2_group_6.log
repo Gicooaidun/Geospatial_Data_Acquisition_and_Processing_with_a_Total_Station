@@ -1,0 +1,669 @@
+2023-10-31 14:05:35 - Creation of Logfile: Lab_2_group_6
+2023-10-31 14:05:35 - All available ports: ['COM3', 'COM1']
+
+2023-10-31 14:05:39 - Port (user input): COM3
+2023-10-31 14:05:40 - Port is connected
+2023-10-31 14:05:40 - AUS_SetUserAtrState - setting the status of the ATR mode 
+
+2023-10-31 14:05:40 - Sending request: 18005
+2023-10-31 14:05:40 - ATR mode successfully changed
+2023-10-31 14:05:40 - AUT_SetUserSpiral - setting the ATR search window 
+
+2023-10-31 14:05:40 - Sending request: 9041
+2023-10-31 14:05:40 - Sucessfully set up ATR window
+2023-10-31 14:05:40 - AUT_SetTol - setting the positioning tolerances 
+
+2023-10-31 14:05:40 - Sending request: 9007
+2023-10-31 14:05:40 - Sucessfully set the positioning tolerances
+2023-10-31 14:05:40 - BAP_SetPrismType - setting the default prism type 
+
+2023-10-31 14:05:40 - Sending request: 17008
+2023-10-31 14:05:40 - Sucessfully set default prism type
+2023-10-31 14:05:40 - Sending request: 17021
+2023-10-31 14:05:40 - TMC_SetHeight - setting a new reflector height 
+
+2023-10-31 14:05:40 - Sending request: 2012
+2023-10-31 14:05:40 - Sucessfully changed reflector height
+2023-10-31 14:05:40 - BAP_SetMeasPrg - setting the distance measurement programm 
+
+2023-10-31 14:05:40 - Sending request: 17019
+2023-10-31 14:05:40 - Sucessfully set distance meauserement programm
+2023-10-31 14:05:40 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:05:40 - Sending request: 2008
+2023-10-31 14:05:40 - Successfully interupted measure procedure
+2023-10-31 14:05:43 - Number of points to measure (user input): 5
+2023-10-31 14:05:46 - Number of sets to measure (user input): 5
+2023-10-31 14:05:53 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:05:53 - Sending request: 2117
+2023-10-31 14:05:55 - Hz = 173.1097 [gon]; V = 85.7388 [gon]; Ds = 3.8318 [m]
+2023-10-31 14:05:55 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:05:55 - Sending request: 2008
+2023-10-31 14:05:55 - Successfully interupted measure procedure
+2023-10-31 14:05:55 - Measurement: {'Point_ID': '1', 'Hz_gon': 173.10965421900343, 'V_gon': 85.73877044142516, 'Ds_m': 3.831801617199941, 'Face_nr': 1, 'Set_nr': 1}
+2023-10-31 14:06:45 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:06:45 - Sending request: 2117
+2023-10-31 14:06:48 - Hz = 293.7616 [gon]; V = 95.8359 [gon]; Ds = 12.9140 [m]
+2023-10-31 14:06:48 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:06:48 - Sending request: 2008
+2023-10-31 14:06:48 - Successfully interupted measure procedure
+2023-10-31 14:06:48 - Measurement: {'Point_ID': '2', 'Hz_gon': 293.76161999156767, 'V_gon': 95.83592352452602, 'Ds_m': 12.914042473062837, 'Face_nr': 1, 'Set_nr': 1}
+2023-10-31 14:07:03 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:07:03 - Sending request: 2117
+2023-10-31 14:07:06 - Hz = 323.4324 [gon]; V = 99.9876 [gon]; Ds = 11.0548 [m]
+2023-10-31 14:07:06 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:07:06 - Sending request: 2008
+2023-10-31 14:07:06 - Successfully interupted measure procedure
+2023-10-31 14:07:06 - Measurement: {'Point_ID': '3', 'Hz_gon': 323.4324200248152, 'V_gon': 99.98756083486526, 'Ds_m': 11.054793166828496, 'Face_nr': 1, 'Set_nr': 1}
+2023-10-31 14:07:15 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:07:15 - Sending request: 2117
+2023-10-31 14:07:17 - Hz = 339.0432 [gon]; V = 100.0213 [gon]; Ds = 12.0694 [m]
+2023-10-31 14:07:17 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:07:17 - Sending request: 2008
+2023-10-31 14:07:17 - Successfully interupted measure procedure
+2023-10-31 14:07:17 - Measurement: {'Point_ID': '4', 'Hz_gon': 339.0432088764521, 'V_gon': 100.02127170454098, 'Ds_m': 12.069420074157112, 'Face_nr': 1, 'Set_nr': 1}
+2023-10-31 14:07:40 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:07:40 - Sending request: 2117
+2023-10-31 14:07:42 - Hz = 36.4615 [gon]; V = 89.6603 [gon]; Ds = 5.6737 [m]
+2023-10-31 14:07:42 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:07:42 - Sending request: 2008
+2023-10-31 14:07:42 - Successfully interupted measure procedure
+2023-10-31 14:07:42 - Measurement: {'Point_ID': '5', 'Hz_gon': 36.46149253029719, 'V_gon': 89.66029535782212, 'Ds_m': 5.673650461983939, 'Face_nr': 1, 'Set_nr': 1}
+2023-10-31 14:07:42 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:07:42 - Sending request: 9028
+2023-10-31 14:07:47 - Sucessfully changed face of telescope
+2023-10-31 14:07:47 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:07:47 - Sending request: 2117
+2023-10-31 14:07:49 - Hz = 236.4583 [gon]; V = 310.3456 [gon]; Ds = 5.6738 [m]
+2023-10-31 14:07:49 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:07:49 - Sending request: 2008
+2023-10-31 14:07:49 - Successfully interupted measure procedure
+2023-10-31 14:07:49 - Measurement: {'Point_ID': '5', 'Hz_gon': 236.45831720018865, 'V_gon': 310.3456283069165, 'Ds_m': 5.673750464635954, 'Face_nr': 2, 'Set_nr': 1}
+2023-10-31 14:07:49 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:07:49 - Sending request: 9027
+2023-10-31 14:07:52 - Telescope turned to Hz=139.0432 [gon] and V=299.9787 [gon]
+2023-10-31 14:07:52 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:07:52 - Sending request: 2117
+2023-10-31 14:07:54 - Hz = 139.0404 [gon]; V = 299.9827 [gon]; Ds = 12.0683 [m]
+2023-10-31 14:07:54 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:07:54 - Sending request: 2008
+2023-10-31 14:07:55 - Successfully interupted measure procedure
+2023-10-31 14:07:55 - Measurement: {'Point_ID': '4', 'Hz_gon': 139.04036008569057, 'V_gon': 299.982705760768, 'Ds_m': 12.068320044984963, 'Face_nr': 2, 'Set_nr': 1}
+2023-10-31 14:07:55 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:07:55 - Sending request: 9027
+2023-10-31 14:07:57 - Telescope turned to Hz=123.4324 [gon] and V=300.0124 [gon]
+2023-10-31 14:07:57 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:07:57 - Sending request: 2117
+2023-10-31 14:07:59 - Hz = 123.4302 [gon]; V = 300.0165 [gon]; Ds = 11.0552 [m]
+2023-10-31 14:07:59 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:07:59 - Sending request: 2008
+2023-10-31 14:07:59 - Successfully interupted measure procedure
+2023-10-31 14:07:59 - Measurement: {'Point_ID': '3', 'Hz_gon': 123.43015473567512, 'V_gon': 300.0165216455299, 'Ds_m': 11.055193177436548, 'Face_nr': 2, 'Set_nr': 1}
+2023-10-31 14:07:59 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:07:59 - Sending request: 9027
+2023-10-31 14:08:01 - Telescope turned to Hz=93.7616 [gon] and V=304.1641 [gon]
+2023-10-31 14:08:01 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:01 - Sending request: 2117
+2023-10-31 14:08:03 - Hz = 93.7597 [gon]; V = 304.1679 [gon]; Ds = 12.9144 [m]
+2023-10-31 14:08:03 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:03 - Sending request: 2008
+2023-10-31 14:08:04 - Successfully interupted measure procedure
+2023-10-31 14:08:04 - Measurement: {'Point_ID': '2', 'Hz_gon': 93.7597428207497, 'V_gon': 304.16786201254655, 'Ds_m': 12.91444248367089, 'Face_nr': 2, 'Set_nr': 1}
+2023-10-31 14:08:04 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:04 - Sending request: 9027
+2023-10-31 14:08:07 - Telescope turned to Hz=373.1097 [gon] and V=314.2612 [gon]
+2023-10-31 14:08:07 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:07 - Sending request: 2117
+2023-10-31 14:08:09 - Hz = 373.1061 [gon]; V = 314.2690 [gon]; Ds = 3.8328 [m]
+2023-10-31 14:08:09 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:09 - Sending request: 2008
+2023-10-31 14:08:09 - Successfully interupted measure procedure
+2023-10-31 14:08:09 - Measurement: {'Point_ID': '1', 'Hz_gon': 373.1061081092157, 'V_gon': 314.2690436213384, 'Ds_m': 3.832801643720075, 'Face_nr': 2, 'Set_nr': 1}
+2023-10-31 14:08:09 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:08:09 - Sending request: 9028
+2023-10-31 14:08:14 - Sucessfully changed face of telescope
+2023-10-31 14:08:14 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:14 - Sending request: 2117
+2023-10-31 14:08:16 - Hz = 173.1092 [gon]; V = 85.7388 [gon]; Ds = 3.8330 [m]
+2023-10-31 14:08:16 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:16 - Sending request: 2008
+2023-10-31 14:08:16 - Successfully interupted measure procedure
+2023-10-31 14:08:16 - Measurement: {'Point_ID': '1', 'Hz_gon': 173.10917956097782, 'V_gon': 85.73879494717875, 'Ds_m': 3.833001649024102, 'Face_nr': 1, 'Set_nr': 2}
+2023-10-31 14:08:16 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:16 - Sending request: 9027
+2023-10-31 14:08:19 - Telescope turned to Hz=293.7616 [gon] and V=95.8359 [gon]
+2023-10-31 14:08:19 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:19 - Sending request: 2117
+2023-10-31 14:08:21 - Hz = 293.7614 [gon]; V = 95.8362 [gon]; Ds = 12.9136 [m]
+2023-10-31 14:08:21 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:21 - Sending request: 2008
+2023-10-31 14:08:22 - Successfully interupted measure procedure
+2023-10-31 14:08:22 - Measurement: {'Point_ID': '2', 'Hz_gon': 293.76143352197244, 'V_gon': 95.83615779008493, 'Ds_m': 12.913642462454783, 'Face_nr': 1, 'Set_nr': 2}
+2023-10-31 14:08:22 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:22 - Sending request: 9027
+2023-10-31 14:08:24 - Telescope turned to Hz=323.4324 [gon] and V=99.9876 [gon]
+2023-10-31 14:08:24 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:24 - Sending request: 2117
+2023-10-31 14:08:26 - Hz = 323.4326 [gon]; V = 99.9872 [gon]; Ds = 11.0547 [m]
+2023-10-31 14:08:26 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:26 - Sending request: 2008
+2023-10-31 14:08:26 - Successfully interupted measure procedure
+2023-10-31 14:08:26 - Measurement: {'Point_ID': '3', 'Hz_gon': 323.4326370155701, 'V_gon': 99.98716538324813, 'Ds_m': 11.05469316417648, 'Face_nr': 1, 'Set_nr': 2}
+2023-10-31 14:08:26 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:26 - Sending request: 9027
+2023-10-31 14:08:28 - Telescope turned to Hz=339.0432 [gon] and V=100.0213 [gon]
+2023-10-31 14:08:28 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:28 - Sending request: 2117
+2023-10-31 14:08:30 - Hz = 339.0426 [gon]; V = 100.0206 [gon]; Ds = 12.0689 [m]
+2023-10-31 14:08:30 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:30 - Sending request: 2008
+2023-10-31 14:08:30 - Successfully interupted measure procedure
+2023-10-31 14:08:30 - Measurement: {'Point_ID': '4', 'Hz_gon': 339.04256182389776, 'V_gon': 100.02058641044025, 'Ds_m': 12.068920060897044, 'Face_nr': 1, 'Set_nr': 2}
+2023-10-31 14:08:30 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:30 - Sending request: 9027
+2023-10-31 14:08:33 - Telescope turned to Hz=36.4615 [gon] and V=89.6603 [gon]
+2023-10-31 14:08:33 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:33 - Sending request: 2117
+2023-10-31 14:08:35 - Hz = 36.4613 [gon]; V = 89.6601 [gon]; Ds = 5.6737 [m]
+2023-10-31 14:08:35 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:35 - Sending request: 2008
+2023-10-31 14:08:36 - Successfully interupted measure procedure
+2023-10-31 14:08:36 - Measurement: {'Point_ID': '5', 'Hz_gon': 36.46127061379278, 'V_gon': 89.66012195756898, 'Ds_m': 5.673650461983939, 'Face_nr': 1, 'Set_nr': 2}
+2023-10-31 14:08:36 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:08:36 - Sending request: 9028
+2023-10-31 14:08:40 - Sucessfully changed face of telescope
+2023-10-31 14:08:40 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:40 - Sending request: 2117
+2023-10-31 14:08:42 - Hz = 236.4583 [gon]; V = 310.3457 [gon]; Ds = 5.6736 [m]
+2023-10-31 14:08:42 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:42 - Sending request: 2008
+2023-10-31 14:08:42 - Successfully interupted measure procedure
+2023-10-31 14:08:42 - Measurement: {'Point_ID': '5', 'Hz_gon': 236.45833843418333, 'V_gon': 310.34570039945066, 'Ds_m': 5.673550459331927, 'Face_nr': 2, 'Set_nr': 2}
+2023-10-31 14:08:42 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:42 - Sending request: 9027
+2023-10-31 14:08:45 - Telescope turned to Hz=139.0432 [gon] and V=299.9787 [gon]
+2023-10-31 14:08:45 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:45 - Sending request: 2117
+2023-10-31 14:08:47 - Hz = 139.0404 [gon]; V = 299.9826 [gon]; Ds = 12.0696 [m]
+2023-10-31 14:08:47 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:47 - Sending request: 2008
+2023-10-31 14:08:48 - Successfully interupted measure procedure
+2023-10-31 14:08:48 - Measurement: {'Point_ID': '4', 'Hz_gon': 139.04043621141844, 'V_gon': 299.9826418920301, 'Ds_m': 12.069620079461139, 'Face_nr': 2, 'Set_nr': 2}
+2023-10-31 14:08:48 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:48 - Sending request: 9027
+2023-10-31 14:08:50 - Telescope turned to Hz=123.4324 [gon] and V=300.0124 [gon]
+2023-10-31 14:08:50 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:50 - Sending request: 2117
+2023-10-31 14:08:52 - Hz = 123.4302 [gon]; V = 300.0166 [gon]; Ds = 11.0553 [m]
+2023-10-31 14:08:52 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:52 - Sending request: 2008
+2023-10-31 14:08:52 - Successfully interupted measure procedure
+2023-10-31 14:08:52 - Measurement: {'Point_ID': '3', 'Hz_gon': 123.43015791056808, 'V_gon': 300.01661699828287, 'Ds_m': 11.055293180088562, 'Face_nr': 2, 'Set_nr': 2}
+2023-10-31 14:08:52 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:52 - Sending request: 9027
+2023-10-31 14:08:54 - Telescope turned to Hz=93.7616 [gon] and V=304.1641 [gon]
+2023-10-31 14:08:54 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:08:54 - Sending request: 2117
+2023-10-31 14:08:56 - Hz = 93.7598 [gon]; V = 304.1679 [gon]; Ds = 12.9142 [m]
+2023-10-31 14:08:56 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:08:56 - Sending request: 2008
+2023-10-31 14:08:57 - Successfully interupted measure procedure
+2023-10-31 14:08:57 - Measurement: {'Point_ID': '2', 'Hz_gon': 93.75977382129022, 'V_gon': 304.1679105130572, 'Ds_m': 12.914242478366864, 'Face_nr': 2, 'Set_nr': 2}
+2023-10-31 14:08:57 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:08:57 - Sending request: 9027
+2023-10-31 14:09:00 - Telescope turned to Hz=373.1097 [gon] and V=314.2612 [gon]
+2023-10-31 14:09:00 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:00 - Sending request: 2117
+2023-10-31 14:09:02 - Hz = 373.1061 [gon]; V = 314.2692 [gon]; Ds = 3.8329 [m]
+2023-10-31 14:09:02 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:02 - Sending request: 2008
+2023-10-31 14:09:02 - Successfully interupted measure procedure
+2023-10-31 14:09:02 - Measurement: {'Point_ID': '1', 'Hz_gon': 373.1061202257051, 'V_gon': 314.2691627322829, 'Ds_m': 3.832901646372089, 'Face_nr': 2, 'Set_nr': 2}
+2023-10-31 14:09:02 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:09:02 - Sending request: 9028
+2023-10-31 14:09:06 - Sucessfully changed face of telescope
+2023-10-31 14:09:06 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:06 - Sending request: 2117
+2023-10-31 14:09:08 - Hz = 173.1092 [gon]; V = 85.7388 [gon]; Ds = 3.8323 [m]
+2023-10-31 14:09:08 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:08 - Sending request: 2008
+2023-10-31 14:09:09 - Successfully interupted measure procedure
+2023-10-31 14:09:09 - Measurement: {'Point_ID': '1', 'Hz_gon': 173.10916601059716, 'V_gon': 85.73881839426386, 'Ds_m': 3.832301630460008, 'Face_nr': 1, 'Set_nr': 3}
+2023-10-31 14:09:09 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:09:09 - Sending request: 9027
+2023-10-31 14:09:12 - Telescope turned to Hz=293.7616 [gon] and V=95.8359 [gon]
+2023-10-31 14:09:12 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:12 - Sending request: 2117
+2023-10-31 14:09:14 - Hz = 293.7613 [gon]; V = 95.8360 [gon]; Ds = 12.9149 [m]
+2023-10-31 14:09:14 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:14 - Sending request: 2008
+2023-10-31 14:09:14 - Successfully interupted measure procedure
+2023-10-31 14:09:14 - Measurement: {'Point_ID': '2', 'Hz_gon': 293.7612546043277, 'V_gon': 95.83603043960721, 'Ds_m': 12.914942496930959, 'Face_nr': 1, 'Set_nr': 3}
+2023-10-31 14:09:14 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:09:14 - Sending request: 9027
+2023-10-31 14:09:16 - Telescope turned to Hz=323.4324 [gon] and V=99.9876 [gon]
+2023-10-31 14:09:16 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:16 - Sending request: 2117
+2023-10-31 14:09:18 - Hz = 323.4326 [gon]; V = 99.9872 [gon]; Ds = 11.0554 [m]
+2023-10-31 14:09:18 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:18 - Sending request: 2008
+2023-10-31 14:09:19 - Successfully interupted measure procedure
+2023-10-31 14:09:19 - Measurement: {'Point_ID': '3', 'Hz_gon': 323.43258255637556, 'V_gon': 99.9871687036541, 'Ds_m': 11.055393182740575, 'Face_nr': 1, 'Set_nr': 3}
+2023-10-31 14:09:19 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:09:19 - Sending request: 9027
+2023-10-31 14:09:21 - Telescope turned to Hz=339.0432 [gon] and V=100.0213 [gon]
+2023-10-31 14:09:21 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:21 - Sending request: 2117
+2023-10-31 14:09:23 - Hz = 339.0425 [gon]; V = 100.0206 [gon]; Ds = 12.0697 [m]
+2023-10-31 14:09:23 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:23 - Sending request: 2008
+2023-10-31 14:09:23 - Successfully interupted measure procedure
+2023-10-31 14:09:23 - Measurement: {'Point_ID': '4', 'Hz_gon': 339.0425100003528, 'V_gon': 100.02062993195118, 'Ds_m': 12.06972008211315, 'Face_nr': 1, 'Set_nr': 3}
+2023-10-31 14:09:23 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:09:23 - Sending request: 9027
+2023-10-31 14:09:26 - Telescope turned to Hz=36.4615 [gon] and V=89.6603 [gon]
+2023-10-31 14:09:26 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:26 - Sending request: 2117
+2023-10-31 14:09:28 - Hz = 36.4613 [gon]; V = 89.6601 [gon]; Ds = 5.6732 [m]
+2023-10-31 14:09:28 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:28 - Sending request: 2008
+2023-10-31 14:09:28 - Successfully interupted measure procedure
+2023-10-31 14:09:28 - Measurement: {'Point_ID': '5', 'Hz_gon': 36.46126565736879, 'V_gon': 89.66012078491701, 'Ds_m': 5.673150448723873, 'Face_nr': 1, 'Set_nr': 3}
+2023-10-31 14:09:28 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:09:28 - Sending request: 9028
+2023-10-31 14:09:32 - Sucessfully changed face of telescope
+2023-10-31 14:09:32 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:32 - Sending request: 2117
+2023-10-31 14:09:34 - Hz = 236.4584 [gon]; V = 310.3456 [gon]; Ds = 5.6740 [m]
+2023-10-31 14:09:34 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:34 - Sending request: 2008
+2023-10-31 14:09:35 - Successfully interupted measure procedure
+2023-10-31 14:09:35 - Measurement: {'Point_ID': '5', 'Hz_gon': 236.45840567615554, 'V_gon': 310.34557590005505, 'Ds_m': 5.67395046993998, 'Face_nr': 2, 'Set_nr': 3}
+2023-10-31 14:09:35 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:09:35 - Sending request: 9027
+2023-10-31 14:09:38 - Telescope turned to Hz=139.0432 [gon] and V=299.9787 [gon]
+2023-10-31 14:09:38 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:38 - Sending request: 2117
+2023-10-31 14:09:40 - Hz = 139.0404 [gon]; V = 299.9826 [gon]; Ds = 12.0686 [m]
+2023-10-31 14:09:40 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:40 - Sending request: 2008
+2023-10-31 14:09:40 - Successfully interupted measure procedure
+2023-10-31 14:09:40 - Measurement: {'Point_ID': '4', 'Hz_gon': 139.04038684379228, 'V_gon': 299.9825946787457, 'Ds_m': 12.068620052941004, 'Face_nr': 2, 'Set_nr': 3}
+2023-10-31 14:09:40 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:09:40 - Sending request: 9027
+2023-10-31 14:09:42 - Telescope turned to Hz=123.4324 [gon] and V=300.0124 [gon]
+2023-10-31 14:09:42 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:42 - Sending request: 2117
+2023-10-31 14:09:44 - Hz = 123.4300 [gon]; V = 300.0165 [gon]; Ds = 11.0549 [m]
+2023-10-31 14:09:44 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:44 - Sending request: 2008
+2023-10-31 14:09:45 - Successfully interupted measure procedure
+2023-10-31 14:09:45 - Measurement: {'Point_ID': '3', 'Hz_gon': 123.43003222320192, 'V_gon': 300.01651047535984, 'Ds_m': 11.054893169480508, 'Face_nr': 2, 'Set_nr': 3}
+2023-10-31 14:09:45 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:09:45 - Sending request: 9027
+2023-10-31 14:09:47 - Telescope turned to Hz=93.7616 [gon] and V=304.1641 [gon]
+2023-10-31 14:09:47 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:47 - Sending request: 2117
+2023-10-31 14:09:49 - Hz = 93.7598 [gon]; V = 304.1679 [gon]; Ds = 12.9143 [m]
+2023-10-31 14:09:49 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:49 - Sending request: 2008
+2023-10-31 14:09:50 - Successfully interupted measure procedure
+2023-10-31 14:09:50 - Measurement: {'Point_ID': '2', 'Hz_gon': 93.75975700575148, 'V_gon': 304.1679191829239, 'Ds_m': 12.914342481018878, 'Face_nr': 2, 'Set_nr': 3}
+2023-10-31 14:09:50 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:09:50 - Sending request: 9027
+2023-10-31 14:09:53 - Telescope turned to Hz=373.1097 [gon] and V=314.2612 [gon]
+2023-10-31 14:09:53 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:53 - Sending request: 2117
+2023-10-31 14:09:55 - Hz = 373.1061 [gon]; V = 314.2692 [gon]; Ds = 3.8331 [m]
+2023-10-31 14:09:55 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:09:55 - Sending request: 2008
+2023-10-31 14:09:55 - Successfully interupted measure procedure
+2023-10-31 14:09:55 - Measurement: {'Point_ID': '1', 'Hz_gon': 373.10612453981906, 'V_gon': 314.2691963049123, 'Ds_m': 3.833101651676116, 'Face_nr': 2, 'Set_nr': 3}
+2023-10-31 14:09:55 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:09:55 - Sending request: 9028
+2023-10-31 14:09:59 - Sucessfully changed face of telescope
+2023-10-31 14:09:59 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:09:59 - Sending request: 2117
+2023-10-31 14:10:01 - Hz = 173.1091 [gon]; V = 85.7390 [gon]; Ds = 3.8325 [m]
+2023-10-31 14:10:01 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:01 - Sending request: 2008
+2023-10-31 14:10:02 - Successfully interupted measure procedure
+2023-10-31 14:10:02 - Measurement: {'Point_ID': '1', 'Hz_gon': 173.10907845036988, 'V_gon': 85.73902552421112, 'Ds_m': 3.832501635764035, 'Face_nr': 1, 'Set_nr': 4}
+2023-10-31 14:10:02 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:02 - Sending request: 9027
+2023-10-31 14:10:05 - Telescope turned to Hz=293.7616 [gon] and V=95.8359 [gon]
+2023-10-31 14:10:05 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:05 - Sending request: 2117
+2023-10-31 14:10:07 - Hz = 293.7613 [gon]; V = 95.8361 [gon]; Ds = 12.9137 [m]
+2023-10-31 14:10:07 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:07 - Sending request: 2008
+2023-10-31 14:10:07 - Successfully interupted measure procedure
+2023-10-31 14:10:07 - Measurement: {'Point_ID': '2', 'Hz_gon': 293.7612665917223, 'V_gon': 95.83609550978146, 'Ds_m': 12.913742465106795, 'Face_nr': 1, 'Set_nr': 4}
+2023-10-31 14:10:07 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:07 - Sending request: 9027
+2023-10-31 14:10:09 - Telescope turned to Hz=323.4324 [gon] and V=99.9876 [gon]
+2023-10-31 14:10:09 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:09 - Sending request: 2117
+2023-10-31 14:10:11 - Hz = 323.4325 [gon]; V = 99.9871 [gon]; Ds = 11.0556 [m]
+2023-10-31 14:10:11 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:11 - Sending request: 2008
+2023-10-31 14:10:12 - Successfully interupted measure procedure
+2023-10-31 14:10:12 - Measurement: {'Point_ID': '3', 'Hz_gon': 323.4325446223346, 'V_gon': 99.98714865065322, 'Ds_m': 11.055593188044602, 'Face_nr': 1, 'Set_nr': 4}
+2023-10-31 14:10:12 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:12 - Sending request: 9027
+2023-10-31 14:10:14 - Telescope turned to Hz=339.0432 [gon] and V=100.0213 [gon]
+2023-10-31 14:10:14 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:14 - Sending request: 2117
+2023-10-31 14:10:16 - Hz = 339.0425 [gon]; V = 100.0207 [gon]; Ds = 12.0697 [m]
+2023-10-31 14:10:16 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:16 - Sending request: 2008
+2023-10-31 14:10:16 - Successfully interupted measure procedure
+2023-10-31 14:10:16 - Measurement: {'Point_ID': '4', 'Hz_gon': 339.0425410487435, 'V_gon': 100.0206568932571, 'Ds_m': 12.06972008211315, 'Face_nr': 1, 'Set_nr': 4}
+2023-10-31 14:10:16 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:16 - Sending request: 9027
+2023-10-31 14:10:19 - Telescope turned to Hz=36.4615 [gon] and V=89.6603 [gon]
+2023-10-31 14:10:19 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:19 - Sending request: 2117
+2023-10-31 14:10:21 - Hz = 36.4613 [gon]; V = 89.6601 [gon]; Ds = 5.6737 [m]
+2023-10-31 14:10:21 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:21 - Sending request: 2008
+2023-10-31 14:10:21 - Successfully interupted measure procedure
+2023-10-31 14:10:21 - Measurement: {'Point_ID': '5', 'Hz_gon': 36.46127742528324, 'V_gon': 89.66010701705925, 'Ds_m': 5.673650461983939, 'Face_nr': 1, 'Set_nr': 4}
+2023-10-31 14:10:21 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:10:21 - Sending request: 9028
+2023-10-31 14:10:25 - Sucessfully changed face of telescope
+2023-10-31 14:10:25 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:25 - Sending request: 2117
+2023-10-31 14:10:27 - Hz = 236.4584 [gon]; V = 310.3457 [gon]; Ds = 5.6740 [m]
+2023-10-31 14:10:27 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:27 - Sending request: 2008
+2023-10-31 14:10:28 - Successfully interupted measure procedure
+2023-10-31 14:10:28 - Measurement: {'Point_ID': '5', 'Hz_gon': 236.45840033981352, 'V_gon': 310.34573515486824, 'Ds_m': 5.67395046993998, 'Face_nr': 2, 'Set_nr': 4}
+2023-10-31 14:10:28 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:28 - Sending request: 9027
+2023-10-31 14:10:31 - Telescope turned to Hz=139.0432 [gon] and V=299.9787 [gon]
+2023-10-31 14:10:31 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:31 - Sending request: 2117
+2023-10-31 14:10:33 - Hz = 139.0405 [gon]; V = 299.9826 [gon]; Ds = 12.0691 [m]
+2023-10-31 14:10:33 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:33 - Sending request: 2008
+2023-10-31 14:10:33 - Successfully interupted measure procedure
+2023-10-31 14:10:33 - Measurement: {'Point_ID': '4', 'Hz_gon': 139.04046869138597, 'V_gon': 299.9826314907527, 'Ds_m': 12.06912006620107, 'Face_nr': 2, 'Set_nr': 4}
+2023-10-31 14:10:33 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:33 - Sending request: 9027
+2023-10-31 14:10:35 - Telescope turned to Hz=123.4324 [gon] and V=300.0124 [gon]
+2023-10-31 14:10:35 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:35 - Sending request: 2117
+2023-10-31 14:10:37 - Hz = 123.4301 [gon]; V = 300.0165 [gon]; Ds = 11.0547 [m]
+2023-10-31 14:10:37 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:37 - Sending request: 2008
+2023-10-31 14:10:38 - Successfully interupted measure procedure
+2023-10-31 14:10:38 - Measurement: {'Point_ID': '3', 'Hz_gon': 123.43008744029635, 'V_gon': 300.01651514994956, 'Ds_m': 11.05469316417648, 'Face_nr': 2, 'Set_nr': 4}
+2023-10-31 14:10:38 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:38 - Sending request: 9027
+2023-10-31 14:10:40 - Telescope turned to Hz=93.7616 [gon] and V=304.1641 [gon]
+2023-10-31 14:10:40 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:40 - Sending request: 2117
+2023-10-31 14:10:42 - Hz = 93.7598 [gon]; V = 304.1680 [gon]; Ds = 12.9141 [m]
+2023-10-31 14:10:42 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:42 - Sending request: 2008
+2023-10-31 14:10:42 - Successfully interupted measure procedure
+2023-10-31 14:10:42 - Measurement: {'Point_ID': '2', 'Hz_gon': 93.75975343759295, 'V_gon': 304.16799572410514, 'Ds_m': 12.91414247571485, 'Face_nr': 2, 'Set_nr': 4}
+2023-10-31 14:10:42 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:42 - Sending request: 9027
+2023-10-31 14:10:45 - Telescope turned to Hz=373.1097 [gon] and V=314.2612 [gon]
+2023-10-31 14:10:45 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:45 - Sending request: 2117
+2023-10-31 14:10:47 - Hz = 373.1061 [gon]; V = 314.2692 [gon]; Ds = 3.8328 [m]
+2023-10-31 14:10:47 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:47 - Sending request: 2008
+2023-10-31 14:10:48 - Successfully interupted measure procedure
+2023-10-31 14:10:48 - Measurement: {'Point_ID': '1', 'Hz_gon': 373.10609354013445, 'V_gon': 314.26922539098933, 'Ds_m': 3.832801643720075, 'Face_nr': 2, 'Set_nr': 4}
+2023-10-31 14:10:48 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:10:48 - Sending request: 9028
+2023-10-31 14:10:52 - Sucessfully changed face of telescope
+2023-10-31 14:10:52 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:52 - Sending request: 2117
+2023-10-31 14:10:54 - Hz = 173.1092 [gon]; V = 85.7386 [gon]; Ds = 3.8325 [m]
+2023-10-31 14:10:54 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:54 - Sending request: 2008
+2023-10-31 14:10:54 - Successfully interupted measure procedure
+2023-10-31 14:10:54 - Measurement: {'Point_ID': '1', 'Hz_gon': 173.10924765268166, 'V_gon': 85.73864215679643, 'Ds_m': 3.832501635764035, 'Face_nr': 1, 'Set_nr': 5}
+2023-10-31 14:10:54 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:10:54 - Sending request: 9027
+2023-10-31 14:10:57 - Telescope turned to Hz=293.7616 [gon] and V=95.8359 [gon]
+2023-10-31 14:10:57 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:10:57 - Sending request: 2117
+2023-10-31 14:10:59 - Hz = 293.7613 [gon]; V = 95.8361 [gon]; Ds = 12.9143 [m]
+2023-10-31 14:10:59 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:10:59 - Sending request: 2008
+2023-10-31 14:11:00 - Successfully interupted measure procedure
+2023-10-31 14:11:00 - Measurement: {'Point_ID': '2', 'Hz_gon': 293.761270532476, 'V_gon': 95.83605644164726, 'Ds_m': 12.914342481018878, 'Face_nr': 1, 'Set_nr': 5}
+2023-10-31 14:11:00 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:11:00 - Sending request: 9027
+2023-10-31 14:11:02 - Telescope turned to Hz=323.4324 [gon] and V=99.9876 [gon]
+2023-10-31 14:11:02 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:11:02 - Sending request: 2117
+2023-10-31 14:11:04 - Hz = 323.4326 [gon]; V = 99.9873 [gon]; Ds = 11.0551 [m]
+2023-10-31 14:11:04 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:11:04 - Sending request: 2008
+2023-10-31 14:11:04 - Successfully interupted measure procedure
+2023-10-31 14:11:04 - Measurement: {'Point_ID': '3', 'Hz_gon': 323.43255479179663, 'V_gon': 99.98725903131503, 'Ds_m': 11.055093174784535, 'Face_nr': 1, 'Set_nr': 5}
+2023-10-31 14:11:04 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:11:04 - Sending request: 9027
+2023-10-31 14:11:06 - Telescope turned to Hz=339.0432 [gon] and V=100.0213 [gon]
+2023-10-31 14:11:06 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:11:06 - Sending request: 2117
+2023-10-31 14:11:08 - Hz = 339.0425 [gon]; V = 100.0207 [gon]; Ds = 12.0687 [m]
+2023-10-31 14:11:08 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:11:08 - Sending request: 2008
+2023-10-31 14:11:09 - Successfully interupted measure procedure
+2023-10-31 14:11:09 - Measurement: {'Point_ID': '4', 'Hz_gon': 339.04253617968004, 'V_gon': 100.02071754929612, 'Ds_m': 12.068720055593017, 'Face_nr': 1, 'Set_nr': 5}
+2023-10-31 14:11:09 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:11:09 - Sending request: 9027
+2023-10-31 14:11:11 - Telescope turned to Hz=36.4615 [gon] and V=89.6603 [gon]
+2023-10-31 14:11:11 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:11:11 - Sending request: 2117
+2023-10-31 14:11:13 - Hz = 36.4613 [gon]; V = 89.6602 [gon]; Ds = 5.6746 [m]
+2023-10-31 14:11:13 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:11:13 - Sending request: 2008
+2023-10-31 14:11:14 - Successfully interupted measure procedure
+2023-10-31 14:11:14 - Measurement: {'Point_ID': '5', 'Hz_gon': 36.46130056398486, 'V_gon': 89.66020404844677, 'Ds_m': 5.674550485852062, 'Face_nr': 1, 'Set_nr': 5}
+2023-10-31 14:11:14 - AUT_ChangeFace - turning the telescope to the other face 
+
+2023-10-31 14:11:14 - Sending request: 9028
+2023-10-31 14:11:18 - Sucessfully changed face of telescope
+2023-10-31 14:11:18 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:11:18 - Sending request: 2117
+2023-10-31 14:11:20 - Hz = 236.4583 [gon]; V = 310.3457 [gon]; Ds = 5.6741 [m]
+2023-10-31 14:11:20 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:11:20 - Sending request: 2008
+2023-10-31 14:11:21 - Successfully interupted measure procedure
+2023-10-31 14:11:21 - Measurement: {'Point_ID': '5', 'Hz_gon': 236.45831332586113, 'V_gon': 310.3457043442764, 'Ds_m': 5.674050472591993, 'Face_nr': 2, 'Set_nr': 5}
+2023-10-31 14:11:21 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:11:21 - Sending request: 9027
+2023-10-31 14:11:24 - Telescope turned to Hz=139.0432 [gon] and V=299.9787 [gon]
+2023-10-31 14:11:24 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:11:24 - Sending request: 2117
+2023-10-31 14:11:26 - Hz = 139.0404 [gon]; V = 299.9827 [gon]; Ds = 12.0687 [m]
+2023-10-31 14:11:26 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:11:26 - Sending request: 2008
+2023-10-31 14:11:26 - Successfully interupted measure procedure
+2023-10-31 14:11:26 - Measurement: {'Point_ID': '4', 'Hz_gon': 139.04044216565015, 'V_gon': 299.9827334600339, 'Ds_m': 12.068720055593017, 'Face_nr': 2, 'Set_nr': 5}
+2023-10-31 14:11:26 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:11:26 - Sending request: 9027
+2023-10-31 14:11:28 - Telescope turned to Hz=123.4324 [gon] and V=300.0124 [gon]
+2023-10-31 14:11:28 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:11:28 - Sending request: 2117
+2023-10-31 14:11:30 - Hz = 123.4302 [gon]; V = 300.0166 [gon]; Ds = 11.0547 [m]
+2023-10-31 14:11:30 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:11:30 - Sending request: 2008
+2023-10-31 14:11:31 - Successfully interupted measure procedure
+2023-10-31 14:11:31 - Measurement: {'Point_ID': '3', 'Hz_gon': 123.43015402689088, 'V_gon': 300.01657243637686, 'Ds_m': 11.05469316417648, 'Face_nr': 2, 'Set_nr': 5}
+2023-10-31 14:11:31 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:11:31 - Sending request: 9027
+2023-10-31 14:11:33 - Telescope turned to Hz=93.7616 [gon] and V=304.1641 [gon]
+2023-10-31 14:11:33 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:11:33 - Sending request: 2117
+2023-10-31 14:11:35 - Hz = 93.7597 [gon]; V = 304.1680 [gon]; Ds = 12.9144 [m]
+2023-10-31 14:11:35 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:11:35 - Sending request: 2008
+2023-10-31 14:11:35 - Successfully interupted measure procedure
+2023-10-31 14:11:35 - Measurement: {'Point_ID': '2', 'Hz_gon': 93.75969946792671, 'V_gon': 304.1679823205526, 'Ds_m': 12.91444248367089, 'Face_nr': 2, 'Set_nr': 5}
+2023-10-31 14:11:35 - AUT_MakePositioning - turning the telescope to a specified position (Hz=%sgon, V=%sgon) 
+
+2023-10-31 14:11:35 - Sending request: 9027
+2023-10-31 14:11:38 - Telescope turned to Hz=373.1097 [gon] and V=314.2612 [gon]
+2023-10-31 14:11:38 - TMC_QuickDist - returning a slope distance and hz-angle, v-angle 
+
+2023-10-31 14:11:38 - Sending request: 2117
+2023-10-31 14:11:41 - Hz = 373.1061 [gon]; V = 314.2692 [gon]; Ds = 3.8327 [m]
+2023-10-31 14:11:41 - TMC_DoMeasure - carrying out a distance measurement 
+
+2023-10-31 14:11:41 - Sending request: 2008
+2023-10-31 14:11:41 - Successfully interupted measure procedure
+2023-10-31 14:11:41 - Measurement: {'Point_ID': '1', 'Hz_gon': 373.1061258906285, 'V_gon': 314.2692159017965, 'Ds_m': 3.832701641068061, 'Face_nr': 2, 'Set_nr': 5}
+2023-10-31 14:11:41 - Measurements saved as csv. See Measurements/Lab_2_group_6.csv
+2023-10-31 14:11:41 - Results of measurements according to ISO 17123-3 saved as .log file. See Output_log/Lab_2_group_6_iso_17123_3.log
+2023-10-31 14:11:41 - Port is disconnected.
